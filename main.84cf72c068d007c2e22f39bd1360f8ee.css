@@ -18,13 +18,17 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
   object-position: 50%; }
 
 .Section-One {
-  background: url(/frodinm/static/media/dillan-choiniere-lowerRez.8bbf5ea4.jpg) no-repeat center center fixed;
+  background-image: url(/frodinm/static/media/dillan-choiniere-lowerRez.8bbf5ea4.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
   height: 100vh;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -123,4 +127,4 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
       margin-bottom: 50px;
       margin-top: 75px; } }
 
-/*# sourceMappingURL=main.404b19e42ceec0d7137f670b809975ae.css.map*/
+/*# sourceMappingURL=main.84cf72c068d007c2e22f39bd1360f8ee.css.map*/
