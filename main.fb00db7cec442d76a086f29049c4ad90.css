@@ -41,9 +41,14 @@ body{margin:0;padding:0;font-family:sans-serif}body {
   opacity: 0; }
 
 #credit {
+  color: #979796;
+  opacity: 0;
   font-size: 15px;
   position: fixed;
   bottom: 29px;
-  left: 50px; }
+  left: 50px;
+  z-index: 2; }
+  #credit a {
+    color: #979796; }
 
-/*# sourceMappingURL=main.e22f907bd1402c45f5d24772b102be56.css.map*/
+/*# sourceMappingURL=main.fb00db7cec442d76a086f29049c4ad90.css.map*/
