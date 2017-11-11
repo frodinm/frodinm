@@ -10,6 +10,9 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
   text-align: center;
   overflow-x: hidden; }
 
+#toAbout:hover {
+  cursor: pointer; }
+
 .backgroundImg {
   height: 100vh;
   width: 100vw;
@@ -18,7 +21,10 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
 
 .projects-wrapper {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  opacity: 0;
+  animation-delay: 1s;
+  animation-duration: 2s; }
   .projects-wrapper #projects-title {
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 30px;
@@ -34,23 +40,9 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
         height: 50%;
         box-shadow: 10px 10px 5px #888888;
         margin: auto;
-        margin-bottom: 90px !important;
+        margin-bottom: 90px;
         margin-top: 50px;
         border-radius: 15%; }
-      .projects-wrapper .projects-row .projects .tile-2 {
-        height: 50%;
-        box-shadow: 10px 10px 5px #888888;
-        margin: auto;
-        margin-bottom: 90px !important;
-        border-radius: 15%;
-        width: 75%; }
-      .projects-wrapper .projects-row .projects .tile-3 {
-        height: 50%;
-        box-shadow: 10px 10px 5px #888888;
-        margin: auto;
-        margin-bottom: 90px !important;
-        border-radius: 15%;
-        width: 75%; }
       .projects-wrapper .projects-row .projects .tileInfo {
         height: 50%; }
 
@@ -77,7 +69,7 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
     bottom: 2px; }
 
 .Section-two {
-  height: 60vh;
+  height: 50vh;
   display: flex;
   width: 100%; }
   .Section-two .AboutMe {
@@ -157,13 +149,19 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
     .Section-two .AboutMe {
       margin-bottom: 50px;
       margin-top: 75px; }
-  .tile-1 {
-    width: 75%;
-    background-position: -50px; }
-  .tile-2 {
-    background-position: -50px; }
-  .tile-3 {
-    background-position: -50px; } }
+  .projects-wrapper {
+    display: flex;
+    flex-direction: column; }
+    .projects-wrapper #projects-title {
+      font-family: "Arial Black", Gadget, sans-serif;
+      font-size: 30px;
+      margin: 20px; }
+    .projects-wrapper .projects-row .projects .tile-1 {
+      width: 75%;
+      margin-bottom: 50px;
+      margin-top: 50px; }
+  .tileInfo {
+    margin: 40px; } }
 
 @media (min-width: 424px) {
   .tile-1 {
@@ -179,8 +177,8 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
 @media (min-width: 540px) {
   .tile-1 {
     width: 50%;
-    margin-top: 50px !important;
-    margin-bottom: 150px !important; } }
+    margin-top: 50px;
+    margin-bottom: 150px; } }
 
 @media (max-width: 740px) {
   .Section-One svg {
@@ -196,19 +194,7 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
 @media (min-width: 740px) {
   .tile-1 {
     width: 44%;
-    margin: auto !important;
-    margin-top: 50px !important;
-    margin-bottom: 150px !important; }
-  .tile-2 {
-    width: 44%;
-    margin: auto !important;
-    margin-top: 50px !important;
-    margin-bottom: 150px !important; }
-  .tile-3 {
-    width: 44%;
-    margin: auto !important;
-    margin-top: 50px !important;
-    margin-bottom: 150px !important; }
+    margin-bottom: 50px; }
   .tileInfo {
     width: 50%; } }
 
@@ -224,4 +210,4 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
     .projects-row .projects {
       width: 100% !important; } }
 
-/*# sourceMappingURL=main.6a46455a89c9ee57e59d7f2cc017eb81.css.map*/
+/*# sourceMappingURL=main.f5af3ba754decc2b47eb5f44805a3115.css.map*/
