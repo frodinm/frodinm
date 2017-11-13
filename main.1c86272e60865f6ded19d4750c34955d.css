@@ -126,7 +126,7 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
   color: white;
   position: absolute;
   font-size: 50px;
-  bottom: 31px; }
+  bottom: 30px; }
 
 #circle {
   fill: none;
@@ -184,7 +184,7 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
   .Section-One svg {
     bottom: 45px; }
   #continue {
-    bottom: 74px; }
+    bottom: 71px; }
   #credit {
     margin-left: auto;
     margin-right: auto;
@@ -210,4 +210,4 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
     .projects-row .projects {
       width: 100% !important; } }
 
-/*# sourceMappingURL=main.27d04fe9aeeb4c77d31a78e65a90c38b.css.map*/
+/*# sourceMappingURL=main.1c86272e60865f6ded19d4750c34955d.css.map*/
