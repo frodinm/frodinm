@@ -23,17 +23,27 @@ export class FirstSection extends Component {
     TweenMax.to(text,2,{opacity:1,ease:Power4.easeOut});
     TweenMax.to(intro,2,{opacity:1,ease:Power4.easeOut});
 
+
+      document.getElementById('continue').addEventListener('click',()=>{
+        window.scrollTo({top: document.getElementById('section-two').getBoundingClientRect().top,behavior: 'smooth'})
+        
+      })
+  
+    
+
   }
   render() {
     return (
       <div className="Section-One">
         <div className='layer'/>
         <span id='introduction'><span id='name'>Hey,I'm Fabrizio.</span><br/> I am currently a student and would<br/> love to  <span id='typed'/> </span>
-        <span id='credit' >Photo by <a id='credit-link' href='https://unsplash.com/@dillanchoiniere' target='_blank'> Dillan Choiniere</a> on Unsplash</span>
-        <span id='continue'>&#8964;</span>
-        <svg style={{zIndex:2}} height="80" width="80">
-          <circle id='circle' cx="40" cy="40" r="30"   />
+        <span id='credit' >Photo by <a id='credit-link' href='https://unsplash.com/@dillanchoiniere'  rel="noopener noreferrer" target='_blank'> Dillan Choiniere</a> on Unsplash</span>
+        <div className="continue-Wrapper">
+        <svg  height="80" width="80" >
+          <circle id='circle' cx="40" cy="40" r="30"  />
         </svg>
+        <span style={{cursor:'pointer'}} id='continue'>&#8964;</span>
+        </div>
       </div>
     );
   }
