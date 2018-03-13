@@ -1,8 +1,11 @@
 {
-  "main.css": "static/css/main.24310f16.css",
-  "main.css.map": "static/css/main.24310f16.css.map",
-  "main.js": "static/js/main.8b05c812.js",
-  "main.js.map": "static/js/main.8b05c812.js.map",
-  "static\\media\\dillan-choiniere-lowerRez.jpg": "static/media/dillan-choiniere-lowerRez.8bbf5ea4.jpg",
-  "static\\media\\sae-tile.png": "static/media/sae-tile.fc38404d.png"
+  "main.css": "main.0a910136ab324b7d73652c0a85c50275.css",
+  "main.css.map": "main.0a910136ab324b7d73652c0a85c50275.css.map",
+  "main.js": "static/js/main.5b9c6b2f.js",
+  "main.js.map": "static/js/main.5b9c6b2f.js.map",
+  "static/media/Feature graphics v2.png": "static/media/Feature graphics v2.4cad9b2a.png",
+  "static/media/dillan-choiniere-lowerRez.jpg": "static/media/dillan-choiniere-lowerRez.8bbf5ea4.jpg",
+  "static/media/gmail.png": "static/media/gmail.847c083c.png",
+  "static/media/mcgillhack.png": "static/media/mcgillhack.ae58439b.png",
+  "static/media/saeconcordia.png": "static/media/saeconcordia.48cf5010.png"
 }
