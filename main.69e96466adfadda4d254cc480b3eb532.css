@@ -164,7 +164,7 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
 
 @media (max-width: 801px) {
   .Project-section {
-    height: 220vh; }
+    height: 225vh; }
     .Project-section .projects {
       flex-direction: column; }
       .Project-section .projects .project-card {
@@ -183,4 +183,4 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
   .Section-two .AboutMe {
     margin-bottom: 50px; } }
 
-/*# sourceMappingURL=main.15fe31f8a5faf7e3435b9be26dc0330b.css.map*/
+/*# sourceMappingURL=main.69e96466adfadda4d254cc480b3eb532.css.map*/
