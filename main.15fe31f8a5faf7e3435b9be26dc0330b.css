@@ -32,7 +32,6 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
     font-size: 60px; }
 
 .Section-two {
-  height: 50vh;
   display: flex;
   width: 100%;
   opacity: 0;
@@ -165,7 +164,7 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
 
 @media (max-width: 801px) {
   .Project-section {
-    height: 195vh; }
+    height: 220vh; }
     .Project-section .projects {
       flex-direction: column; }
       .Project-section .projects .project-card {
@@ -184,4 +183,4 @@ body{margin:0;padding:0;font-family:sans-serif}/*!
   .Section-two .AboutMe {
     margin-bottom: 50px; } }
 
-/*# sourceMappingURL=main.35de79b7a589aa7fb642122abe6a7002.css.map*/
+/*# sourceMappingURL=main.15fe31f8a5faf7e3435b9be26dc0330b.css.map*/
